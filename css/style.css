@@ -21,3 +21,25 @@ main{
     padding-top: 200px;
     
 }
+
+/* img blocks */
+
+.product_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.product{
+    width:32%;
+    background-color: lightgrey;
+    margin-bottom:20px;
+    
+    
+    /*DEBUG*/
+
+}
+
+.product img{
+    max-width:100%;
+}
