@@ -7,13 +7,51 @@
 
 header{
     background-color: orange;
-    height:100px;
-    position:static;
     top:0;
     left:0;
     width:100%;
     
     
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:70%;
+    margin: 0 auto;
+}
+
+/* genders */
+
+
+.header-list{
+    display: flex;
+    flex-direction: row;
+    flex-basis:50%;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30%;
+}
+
+/* logo */
+.logo{
+    display: flex;
+    text-align: center;
+    flex-basis: 50%;
+}
+
+.logo-img{
+    width:40px;
 }
 
 /* main part rules */
@@ -88,5 +126,30 @@ main{
 .whole-price{
     font-weight: bold;
     text-decoration: line-through;
+
+}
+
+/* hover images */
+
+.hover-img{
+    display:none;
+}
+
+/* hide pic */
+.product:hover .default-img{
+    display: none;
+}
+
+/* show pic */
+.product:hover .hover-img{
+    display: inline-block;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    top:0;
+    left:0;
+    width:100%;
 
 }
