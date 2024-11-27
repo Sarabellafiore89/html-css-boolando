@@ -131,17 +131,17 @@ main{
 
 /* hover images */
 
-.hover-img{
+.hover{
     display:none;
 }
 
 /* hide pic */
-.product:hover .default-img{
+.product:hover .above{
     display: none;
 }
 
 /* show pic */
-.product:hover .hover-img{
+.product:hover .hover{
     display: inline-block;
 }
 
