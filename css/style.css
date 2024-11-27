@@ -10,6 +10,10 @@ header{
     top:0;
     left:0;
     width:100%;
+    position:fixed;
+    z-index: 1000;
+    
+    
     
     
 }
@@ -18,46 +22,58 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:70%;
+    width:80%;
     margin: 0 auto;
+    padding:30px auto;
+    
 }
 
 /* genders */
 
 
 .header-list{
-    display: flex;
-    flex-direction: row;
-    flex-basis:50%;
-    justify-content: space-between;
+    flex-basis:25%;
     align-items:center ;
 }
 
 li{
     list-style: none;
+    margin-right: 10px;
+}
+
+ul{
+    display: flex;
+
 }
 
 a{
     text-decoration: none;
     color: white;
-    font-size: 30%;
+    justify-content: center;
 }
 
 /* logo */
 .logo{
-    display: flex;
     text-align: center;
     flex-basis: 50%;
 }
 
-.logo-img{
-    width:40px;
+.img-logo{
+    width:200px;
+}
+
+/* header link */
+
+.header-link{
+    flex-basis: 25%;
+    text-align: end;
 }
 
 /* main part rules */
 
 main{
     padding-top: 200px;
+    
     
 }
 
@@ -67,6 +83,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 
 }
 .product{
@@ -81,6 +98,7 @@ main{
 
 .product img{
     max-width:100%;
+    
 }
 
 .label{
